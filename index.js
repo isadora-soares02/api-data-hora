@@ -7,7 +7,7 @@ app.use(cors());
 
 // rota principal
 app.get('/', (req, res) => {
-  res.json({ status: 'API funcionando 🚀' });
+  res.json({ status: 'API funcionando!' });
 });
 
 // rota da atividade
